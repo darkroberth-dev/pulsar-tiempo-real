@@ -45,10 +45,10 @@
           {
             "type": "ia.display.label",
             "meta": {
-              "name": "Wordmark"
+              "name": "Dashboard"
             },
             "props": {
-              "text": "PULSAR",
+              "text": "Dashboard",
               "style": {
                 "fontSize": "22px",
                 "fontWeight": "800",

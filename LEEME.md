@@ -1,4 +1,4 @@
-# Tiempo Real — PULSAR
+# Tiempo Real — Dashboard
 
 Vista de Ignition Perspective (contenedor Flex).
 
