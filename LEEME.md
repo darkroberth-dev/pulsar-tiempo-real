@@ -1,16 +1,19 @@
-# Tiempo Real — Dashboard
+# Dashboard — Tiempo Real
 
-Vista de Ignition Perspective (contenedor Flex).
+Importa **solo** el archivo `TiempoReal-Perspective.zip`.
+No importes el ZIP de todo el repositorio: GitHub lo envuelve en una carpeta y el Designer no ve la vista.
 
-## Cómo bajarla
+## En el Designer
 
-En esta página de GitHub pulsa **Code** y luego **Download ZIP**.
+1. Abre tu proyecto.
+2. Clic derecho en el **nombre del proyecto** (Project Browser) → **Import**.
+3. Elige `TiempoReal-Perspective.zip`.
+4. Marca la vista **Dashboard**.
+5. Si el proyecto ya tiene páginas, no marques **Page Configuration**: reemplazaría la página de inicio.
+6. La vista queda en Perspective → Views → **Dashboard**.
 
-## Cómo meterla en el Designer
+Si importas en un proyecto nuevo, la página `/` abre esa vista.
 
-1. Clic derecho en **Views** → **New View**.
-2. Nombre: `TiempoReal`. Contenedor raíz: **Flex**.
-3. Abre `TiempoReal.view.json`, copia todo el texto.
-4. **Shift + clic derecho** sobre la vista nueva → **Paste JSON**.
+## Si sigue sin aparecer
 
-Los números son de demostración (1:18 PM). No hay bindings a tags.
+Cierra el Designer por completo y vuelve a abrirlo. Luego busca **Dashboard**, no Tiempo Real.
