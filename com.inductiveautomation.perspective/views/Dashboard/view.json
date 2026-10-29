@@ -605,7 +605,7 @@
           "elementPosition": {
             "grow": 0,
             "shrink": 0,
-            "basis": "228px"
+            "basis": "260px"
           },
           "elementStyle": {
             "marginBottom": "12px",
@@ -616,7 +616,7 @@
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -667,13 +667,72 @@
               "s10w": "5.3%",
               "s10c": "#3cbe78",
               "s11w": "47.4%",
-              "s11c": "#e7eef1"
+              "s11c": "#e7eef1",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "1/9 pendiente",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "María Guzmán Muñoz",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Panel Metálico",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -724,13 +783,72 @@
               "s10w": "5.1%",
               "s10c": "#3cbe78",
               "s11w": "47.6%",
-              "s11c": "#e7eef1"
+              "s11c": "#e7eef1",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Andrés Paredes León",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Soporte Estampado",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -781,13 +899,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Margarita Delgado Suárez",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Perfil PVC Ancho",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -838,13 +1015,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Diego Salazar Ortiz",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Eje Templado",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -895,13 +1131,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Valeria Núñez Prado",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Carcasa Aluminio",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -952,13 +1247,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Héctor Ibáñez Mora",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Soporte Láser",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1009,13 +1363,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Paula Quintero Díaz",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Tapa Inyectada",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1066,13 +1479,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "1/10 pendiente",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Rodrigo Campos Gil",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Placa 3 mm",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1123,13 +1595,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Sin asignar",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Lote Curado",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1180,13 +1711,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Elena Vargas Pinto",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Disco Excéntrico",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1237,13 +1827,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "2/10 pendiente",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Mateo Herrera Solís",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Marco Pintado",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1294,13 +1943,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Jimena Ortiz Beltrán",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Tubo Ø25",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1351,13 +2059,72 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Camila Rivas Soto",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Subensamble A",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             },
             {
               "instancePosition": {
                 "grow": 0,
                 "shrink": 0,
-                "basis": "228px"
+                "basis": "260px"
               },
               "instanceStyle": {
                 "marginBottom": "12px",
@@ -1408,7 +2175,66 @@
               "s10w": "0%",
               "s10c": "#00000000",
               "s11w": "0%",
-              "s11c": "#00000000"
+              "s11c": "#00000000",
+              "actions": [
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Anotar Paradas",
+                  "badge": "",
+                  "icon": "material/warning",
+                  "iconColor": "#c48a12",
+                  "edit": true
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Iván Morales Ceballos",
+                  "badge": "",
+                  "icon": "material/person",
+                  "iconColor": "#3b6fd8",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "instanceStyle": {
+                    "marginRight": "8px"
+                  },
+                  "label": "Rodillo Rectificado",
+                  "badge": "",
+                  "icon": "material/inventory_2",
+                  "iconColor": "#1b9a52",
+                  "edit": false
+                },
+                {
+                  "instancePosition": {
+                    "grow": 0,
+                    "shrink": 0,
+                    "basis": "auto"
+                  },
+                  "label": "Agregar Defectos",
+                  "badge": "",
+                  "icon": "material/report",
+                  "iconColor": "#d23b3b",
+                  "edit": false
+                }
+              ]
             }
           ],
           "style": {

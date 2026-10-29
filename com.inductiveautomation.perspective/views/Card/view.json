@@ -9,6 +9,7 @@
     "stopsText": "Anotar Paradas",
     "operator": "Sin asignar",
     "productLine": "Producto",
+    "actions": [],
     "m0v": "—",
     "m0c": "",
     "m1v": "—",
@@ -52,7 +53,7 @@
   "props": {
     "defaultSize": {
       "width": 1280,
-      "height": 228
+      "height": 260
     }
   },
   "root": {
@@ -1446,136 +1447,51 @@
         ]
       },
       {
-        "type": "ia.container.flex",
+        "type": "ia.display.flex-repeater",
         "meta": {
-          "name": "Footer"
+          "name": "Actions"
         },
         "position": {
           "grow": 0,
           "shrink": 0,
-          "basis": "40px"
+          "basis": "56px"
         },
-        "props": {
-          "direction": "row",
-          "wrap": "wrap",
-          "style": {
-            "borderTop": "1px solid #e6ebef",
-            "padding": "8px 12px",
-            "backgroundColor": "#ffffff"
-          },
-          "alignItems": "center"
-        },
-        "children": [
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Stops"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Anotar Paradas",
-              "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430"
-              }
-            },
-            "propConfig": {
-              "props.text": {
-                "binding": {
-                  "type": "property",
-                  "config": {
-                    "path": "view.params.stopsText"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Op"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Operador",
-              "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430",
-                "marginLeft": "16px"
-              }
-            },
-            "propConfig": {
-              "props.text": {
-                "binding": {
-                  "type": "property",
-                  "config": {
-                    "path": "view.params.operator"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Prod"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Producto",
-              "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430",
-                "marginLeft": "16px"
-              }
-            },
-            "propConfig": {
-              "props.text": {
-                "binding": {
-                  "type": "property",
-                  "config": {
-                    "path": "view.params.productLine"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Def"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Agregar Defectos",
-              "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430",
-                "marginLeft": "16px"
+        "propConfig": {
+          "props.instances": {
+            "binding": {
+              "type": "property",
+              "config": {
+                "path": "view.params.actions"
               }
             }
           }
-        ]
+        },
+        "props": {
+          "path": "Action",
+          "direction": "row",
+          "wrap": "wrap",
+          "justify": "flex-start",
+          "alignItems": "center",
+          "alignContent": "flex-start",
+          "useDefaultViewWidth": false,
+          "useDefaultViewHeight": false,
+          "elementPosition": {
+            "grow": 0,
+            "shrink": 0,
+            "basis": "auto"
+          },
+          "elementStyle": {
+            "marginRight": "8px",
+            "marginBottom": "4px"
+          },
+          "instances": [],
+          "style": {
+            "borderTop": "1px solid #e6ebef",
+            "padding": "8px 12px",
+            "backgroundColor": "#ffffff",
+            "width": "100%"
+          }
+        }
       }
     ]
   }

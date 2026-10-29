@@ -1,0 +1,180 @@
+{
+  "custom": {},
+  "params": {
+    "label": "Anotar Paradas",
+    "badge": "",
+    "icon": "material/warning",
+    "iconColor": "#c48a12",
+    "edit": false
+  },
+  "propConfig": {},
+  "props": {
+    "defaultSize": {
+      "width": 240,
+      "height": 36
+    }
+  },
+  "root": {
+    "type": "ia.container.flex",
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "grow": 0,
+      "shrink": 0,
+      "basis": "36px"
+    },
+    "props": {
+      "direction": "row",
+      "wrap": "nowrap",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "border": "1px solid #e6ebef",
+        "borderRadius": "12px",
+        "padding": "6px 10px",
+        "height": "100%"
+      },
+      "alignItems": "center"
+    },
+    "children": [
+      {
+        "type": "ia.display.icon",
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "grow": 0,
+          "shrink": 0,
+          "basis": "18px"
+        },
+        "props": {
+          "path": "material/warning",
+          "color": "#c48a12",
+          "style": {
+            "width": "18px",
+            "height": "18px",
+            "marginRight": "8px"
+          }
+        },
+        "propConfig": {
+          "props.path": {
+            "binding": {
+              "type": "property",
+              "config": {
+                "path": "view.params.icon"
+              }
+            }
+          },
+          "props.color": {
+            "binding": {
+              "type": "property",
+              "config": {
+                "path": "view.params.iconColor"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ia.display.label",
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "grow": 0,
+          "shrink": 0,
+          "basis": "auto"
+        },
+        "props": {
+          "text": "Anotar Paradas",
+          "style": {
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "color": "#1b2430"
+          }
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "type": "property",
+              "config": {
+                "path": "view.params.label"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ia.display.label",
+        "meta": {
+          "name": "Badge"
+        },
+        "position": {
+          "grow": 0,
+          "shrink": 0,
+          "basis": "auto"
+        },
+        "props": {
+          "text": "1/9 pendiente",
+          "style": {
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "color": "#8a6a10",
+            "backgroundColor": "#f8e7a8",
+            "borderRadius": "999px",
+            "padding": "2px 8px",
+            "marginLeft": "8px"
+          }
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "type": "property",
+              "config": {
+                "path": "view.params.badge"
+              }
+            }
+          },
+          "props.style.display": {
+            "binding": {
+              "type": "expr",
+              "config": {
+                "expression": "if({view.params.badge}=\"\", \"none\", \"flex\")"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ia.display.icon",
+        "meta": {
+          "name": "Edit"
+        },
+        "position": {
+          "grow": 0,
+          "shrink": 0,
+          "basis": "16px"
+        },
+        "props": {
+          "path": "material/edit",
+          "color": "#6d7782",
+          "style": {
+            "width": "16px",
+            "height": "16px",
+            "marginLeft": "8px"
+          }
+        },
+        "propConfig": {
+          "props.style.display": {
+            "binding": {
+              "type": "expr",
+              "config": {
+                "expression": "if({view.params.edit}, \"flex\", \"none\")"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

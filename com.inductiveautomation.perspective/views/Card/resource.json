@@ -7,6 +7,6 @@
     "view.json"
   ],
   "attributes": {
-    "documentation": "Tarjeta de m\u00e1quina usada por el Flex Repeater."
+    "documentation": "Tarjeta de m\u00e1quina. Su pie es un Flex Repeater de Action."
   }
 }
