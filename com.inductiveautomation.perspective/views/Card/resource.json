@@ -1,0 +1,12 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "view.json"
+  ],
+  "attributes": {
+    "documentation": "Tarjeta de m\u00e1quina usada por el Flex Repeater."
+  }
+}

@@ -6,5 +6,7 @@
   "files": [
     "config.json"
   ],
-  "attributes": {}
+  "attributes": {
+    "documentation": "P\u00e1gina de inicio."
+  }
 }

@@ -7,6 +7,6 @@
     "view.json"
   ],
   "attributes": {
-    "documentation": "Dashboard tiempo real."
+    "documentation": "Dashboard tiempo real. Flex Repeater de Card."
   }
 }
