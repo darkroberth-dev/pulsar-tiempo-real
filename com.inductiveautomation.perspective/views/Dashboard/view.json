@@ -53,48 +53,9 @@
         },
         "children": [
           {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Dashboard"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Dashboard",
-              "style": {
-                "fontSize": "22px",
-                "fontWeight": "800",
-                "color": "#1b2430"
-              }
-            }
-          },
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Title"
-            },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "Tiempo Real",
-              "style": {
-                "fontSize": "14px",
-                "fontWeight": "600",
-                "color": "#6d7782",
-                "marginLeft": "12px"
-              }
-            }
-          },
-          {
             "type": "ia.container.flex",
             "meta": {
-              "name": "TopSpacer"
+              "name": "BrandCol"
             },
             "position": {
               "grow": 1,
@@ -104,48 +65,129 @@
             "props": {
               "direction": "row",
               "wrap": "nowrap",
-              "style": {}
+              "style": {
+                "paddingRight": "16px"
+              },
+              "alignItems": "center"
             },
-            "children": []
+            "children": [
+              {
+                "type": "ia.display.label",
+                "meta": {
+                  "name": "Dashboard"
+                },
+                "position": {
+                  "grow": 0,
+                  "shrink": 0,
+                  "basis": "auto"
+                },
+                "props": {
+                  "text": "Dashboard",
+                  "style": {
+                    "fontSize": "22px",
+                    "fontWeight": "800",
+                    "color": "#1b2430"
+                  }
+                }
+              }
+            ]
           },
           {
-            "type": "ia.display.label",
+            "type": "ia.container.flex",
             "meta": {
-              "name": "Plant"
+              "name": "TitleCol"
             },
             "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
+              "grow": 1,
+              "shrink": 1,
+              "basis": "0px"
             },
             "props": {
-              "text": "LATAM Demo",
+              "direction": "row",
+              "wrap": "nowrap",
               "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430"
-              }
-            }
-          },
-          {
-            "type": "ia.display.label",
-            "meta": {
-              "name": "Group"
+                "borderLeft": "1px solid #d5dde3",
+                "paddingLeft": "24px"
+              },
+              "alignItems": "center"
             },
-            "position": {
-              "grow": 0,
-              "shrink": 0,
-              "basis": "auto"
-            },
-            "props": {
-              "text": "1 Grupo de Máquinas  ·  14",
-              "style": {
-                "fontSize": "13px",
-                "fontWeight": "600",
-                "color": "#1b2430",
-                "marginLeft": "12px"
+            "children": [
+              {
+                "type": "ia.display.label",
+                "meta": {
+                  "name": "Title"
+                },
+                "position": {
+                  "grow": 0,
+                  "shrink": 0,
+                  "basis": "auto"
+                },
+                "props": {
+                  "text": "Tiempo Real",
+                  "style": {
+                    "fontSize": "18px",
+                    "fontWeight": "600",
+                    "color": "#1b2430"
+                  }
+                }
+              },
+              {
+                "type": "ia.container.flex",
+                "meta": {
+                  "name": "TopSpacer"
+                },
+                "position": {
+                  "grow": 1,
+                  "shrink": 1,
+                  "basis": "0px"
+                },
+                "props": {
+                  "direction": "row",
+                  "wrap": "nowrap",
+                  "style": {}
+                },
+                "children": []
+              },
+              {
+                "type": "ia.display.label",
+                "meta": {
+                  "name": "Plant"
+                },
+                "position": {
+                  "grow": 0,
+                  "shrink": 0,
+                  "basis": "auto"
+                },
+                "props": {
+                  "text": "LATAM Demo",
+                  "style": {
+                    "fontSize": "13px",
+                    "fontWeight": "600",
+                    "color": "#1b2430"
+                  }
+                }
+              },
+              {
+                "type": "ia.display.label",
+                "meta": {
+                  "name": "Group"
+                },
+                "position": {
+                  "grow": 0,
+                  "shrink": 0,
+                  "basis": "auto"
+                },
+                "props": {
+                  "text": "1 Grupo de Máquinas  ·  14",
+                  "style": {
+                    "fontSize": "13px",
+                    "fontWeight": "600",
+                    "color": "#1b2430",
+                    "marginLeft": "12px"
+                  }
+                }
               }
-            }
+            ]
           }
         ]
       },
